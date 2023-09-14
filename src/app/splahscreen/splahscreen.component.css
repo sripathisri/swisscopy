@@ -1,19 +1,22 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .FoodOrderpage {
   background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
   height: 100vh;
   background-size: cover;
-  font-family: Roboto;
+  /* font-family: Roboto; */
 }
 
-.family {
+/* .family {
   font-family: Bree Serif;
-}
+} */
 
 .fooddetails {
   background-color: #6AC34F;
-  padding: 5px;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
+  padding: 25px;
+
 }
 
 .btn1 {
@@ -21,7 +24,7 @@
   color: #323f4b;
 }
 
-.btnn {
+.btnn{
   margin-top: 5px;
   position: relative;
   width: 200px;
@@ -39,12 +42,13 @@
   overflow: hidden;
 }
 
-.btnn:hover {
+.btnn:hover{
   padding-left: 0px;
   padding-right: 40px;
 }
 
-.btnn span {
+.btnn span
+{
   position: absolute;
   left: 5px;
   width: 50px;
@@ -57,11 +61,13 @@
   align-items: center;
 }
 
-.btnn:hover span {
-  left: calc(100% - 55px)
+.btnn:hover span
+{
+ left:calc(100% - 55px )
 }
 
-.btnn:after {
+.btnn:after
+{
   content: '';
   position: absolute;
   width: 80px;
@@ -72,6 +78,39 @@
   transition: 0.75s ease-in-out;
 }
 
-.btnn:hover:after {
+.btnn:hover:after
+{
   transform: translatex(170px) skew(30deg);
+}
+
+.ss{
+  color: white;
+}
+
+
+/* login */
+
+.logininput{
+ background-color: #6AC34F;
+ border: 1px solid white;
+ color: white;
+ outline: none;
+}
+
+.wi{
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
+::placeholder {
+  color: white;
+  text-align: start;
+  font-size: 0.9rem;
+}
+
+input.wi::placeholder{
+  color: white;
+  text-align: center;
+  font-size: 0.9rem;
 }
