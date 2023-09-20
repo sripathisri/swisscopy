@@ -8,6 +8,7 @@ import { ProdetailspageComponent } from './prodetailspage/prodetailspage.compone
 
 const routes: Routes = [
   { path:'',component:SplahscreenComponent},
+  { path:'start',component:SplahscreenComponent},
   { path:'login',component:LoginpageComponent},
   { path:'otp',component:OtppageComponent},
   { path:'profile',component:ProdetailspageComponent},
