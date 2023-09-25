@@ -7,6 +7,7 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
 import { SplahscreenComponent } from './splahscreen/splahscreen.component';
 import { OtppageComponent } from './otppage/otppage.component';
 import { ProdetailspageComponent } from './prodetailspage/prodetailspage.component';
+import { KdsViewOrdersComponent } from './kds-view-orders/kds-view-orders.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ProdetailspageComponent } from './prodetailspage/prodetailspage.compone
     LoginpageComponent,
     SplahscreenComponent,
     OtppageComponent,
-    ProdetailspageComponent
+    ProdetailspageComponent,
+    KdsViewOrdersComponent
   ],
   imports: [
     BrowserModule,
